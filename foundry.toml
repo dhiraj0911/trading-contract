@@ -1,0 +1,13 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+gas_reports = ["Pool"]
+solc = "0.8.15"
+optimizer = true
+optimizer_runs = 1
+verbosity = 1
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+[fmt]
+line_length = 120
